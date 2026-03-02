@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.purple,
-        title: Text('Home',style: TextStyle(color: Colors.white),),
+        title: Text('Home', style: TextStyle(color: Colors.white),),
       ),
       body: Center(
         child: Column(

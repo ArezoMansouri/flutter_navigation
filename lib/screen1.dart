@@ -6,7 +6,10 @@ class Screen1 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(backgroundColor: Colors.red, title: Text('Screen 1',style: TextStyle(color: Colors.white),)),
+      appBar: AppBar(
+        backgroundColor: Colors.red,
+        title: Text('Screen 1', style: TextStyle(color: Colors.white)),
+      ),
       body: Center(
         child: ElevatedButton(
           style: ElevatedButton.styleFrom(
